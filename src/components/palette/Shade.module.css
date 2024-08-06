@@ -1,0 +1,8 @@
+.shade {
+  height: 80px;
+  user-select: none;
+
+  @media (min-width: $mantine-breakpoint-md) {
+    height: 350px;
+  }
+}

@@ -1,4 +1,5 @@
 import "@fontsource-variable/inter"; // Supports weights 100-900
+import "@fontsource/poppins/700.css";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import { App } from "@src/App";

@@ -110,9 +110,17 @@ const themeOverride = createTheme({
   focusRing: "auto",
   fontFamily: "'Inter Variable', sans-serif",
   headings: {
-    fontFamily: "'Inter Variable', sans-serif"
+    fontFamily: "'Poppins', sans-serif"
   },
-  primaryColor: "plum"
+  primaryColor: "denim",
+  components: {
+    Tooltip: {
+      defaultProps: {
+        multiline: true,
+        maw: 220
+      }
+    }
+  }
 });
 
 export const theme = mergeMantineTheme(DEFAULT_THEME, themeOverride);
